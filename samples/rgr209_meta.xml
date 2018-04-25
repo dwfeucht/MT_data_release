@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>Daniel W. Feucht</origin>
+				<origin>Paul A. Bedrosian</origin>
+				<origin>Anne F. Sheehan</origin>
+				<pubdate>2018</pubdate>
+				<title>Regional scale magnetotelluric data from the Rio Grande Rift and southern Rocky Mountains, Station rgr209</title>
+				<geoform>ASCII and binary digital data, image</geoform>
+				<pubinfo>
+					<pubplace>Denver, CO</pubplace>
+					<publish>U.S. Geological Survey</publish>
+				</pubinfo>
+				<onlink>https://doi.org/10.5066/F7610XTR</onlink>
+				<lworkcit>
+					<citeinfo>
+						<origin>Feucht, Daniel W.</origin>
+						<origin>Sheehan, Anne F.</origin>
+						<origin>Bedrosian, Paul A.</origin>
+						<pubdate>20171204</pubdate>
+						<title>Magnetotelluric imaging of lower crustal melt and lithospheric hydration in the Rocky Mountain Front transition zone, Colorado, USA</title>
+                                                <geoform>Publication</geoform>
+                                                <serinfo>
+							<sername>Journal of Geophysical Research: Solid Earth</sername>
+							<issue>122(12)</issue>
+						</serinfo>
+						<pubinfo>
+			                          <pubplace>Denver, CO</pubplace>
+			       	                  <publish>U.S. Geological Survey</publish>
+						</pubinfo>
+					        <onlink>https://doi.org/10.1002/2017JB014474</onlink>
+					</citeinfo>
+				</lworkcit>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>This dataset consists of 102 magnetotelluric (MT) stations collected in 2012-2014 in the Rio Grande Rift and southern Rocky Mountains. The U.S. Geological Survey acquired these data to improve regional conductivity models of the western United States. This work is in support of studies of the effect of lithospheric modification on electrical resistivity structure and tectonic evolution of the western United States.</abstract>
+			<purpose>The purpose of this data release is provide MT station locations, time-series data, and processed transfer functions to the public.</purpose>
+			<supplinf>This data product contains remote-referenced magnetotelluric (MT) transfer functions (TFs), which define the frequency dependent linear relations between components of electromagnetic (EM) field variations measured at a single site. Two types of TF are provided for most sites, impedance data relating horizontal electric and magnetic fields and tipper data, relating vertical and horizontal magnetic fields. All of the TFs provide input data for subsequent MT inversion and interpretation. They are estimated from the raw EM time series by (a) Fourier transforming data in a series of short overlapping time windows, and (b) applying robust regression methods to calculate TFs from the resulting spectral field estimates. For remote reference processing, data from one or more synchronously recording sites are used for more effective signal/noise separation. The supplied TFs are calculated for a range of periods (which may vary, depending on instrumentation and deployment time), as well as estimation error covariances.
+	
+References relevant to this release include:
+Egbert, G.D., 1997, Robust multiple station magnetotelluric data processing, Geophysical Journal International, 130, pp. 475-496.
+Feucht, D.W., Sheehan, A.F., and Bedrosian, P.A., (2017), Magnetotelluric imaging of lower crustal melt and lithospheric hydration in the Rocky Mountain Front transition zone, Colorado, USA, Journal of Geophysical Research: Solid Earth, 122.
+Wight, D., 1991, MT/EMAP Data Interchange Standard, The Society of Exploration Geophysicists. http://www.seg.org/documents/10161/77915/seg_mt_emap_1987.pdf 
+Documentation for robust MT data processing program EMTF by Dr. Gary Egbert http://www.complete-mt-solutions.com/mtnet/programs/egbert.html
+		   
+This metadata documents the full suite of MT data for this site and includes the files below. Their contents are described in the PDF "Guide to MT Data Types" and an accompanying data dictionary (see entities and attributes for more information):
+
+data_rgr209a.bnn
+data_rgr209b.bnn
+rgr209.edi
+rgr209.png
+rgr209.zmm
+rgr209_meta.xml
+rgr209_rspfiles.zip
+rgr209_wideband_asc.zip
+rgr209a_converted.asc
+rgr209b_converted.asc
+
+			</supplinf>
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<rngdates>
+					<begdate>20120703</begdate>
+					<enddate>20120803</enddate>
+				</rngdates>
+			</timeinfo>
+			<current>ground condition</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>as needed</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-106.4388</westbc>
+				<eastbc>-106.4388</eastbc>
+				<northbc>36.4221</northbc>
+				<southbc>36.4221</southbc>
+			</bounding>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>none</themekt>
+				<themekey>Geology, Geophysics, and Geochemistry Science Center</themekey>
+				<themekey>GGGSC</themekey>
+				<themekey>Mineral Resources Program</themekey>
+				<themekey>MRP</themekey>
+				<themekey>magnetotelluric</themekey>
+				<themekey>MT</themekey>
+				<themekey>regional conductivity models</themekey>
+				<themekey>time series</themekey>
+				<themekey>impedance</themekey>
+				<themekey>apparent resistivity</themekey>
+				<themekey>phase</themekey>
+				<themekey>tipper</themekey>
+			</theme>
+			<theme>
+				<themekt>ISO 19115 Topic Categories</themekt>
+				<themekey>geoscientificInformation</themekey>
+			</theme>
+			<theme>
+				<themekt>USGS Thesaurus</themekt>
+				<themekey>Magnetic field (earth)</themekey>
+				<themekey>Geophysics</themekey>
+				<themekey>Electromagnetic surveying</themekey>
+			</theme>
+			<place>
+				<placekt>Geographic Names Information System (GNIS)</placekt>
+				<placekey>New Mexico</placekey>
+				<placekey>Rio Grande Rift</placekey>
+				<placekey>Colorado Plateau</placekey>
+				<placekey>Rocky Mountains</placekey>
+			</place>
+		</keywords>
+		<accconst>none</accconst>
+		<useconst>There is no guarantee concerning the accuracy of the data. Any user who modifies the data is obligated to describe the types of modifications they perform. Data have been checked to ensure the accuracy. If any errors are detected, please notify the originating office. The U.S. Geological Survey strongly recommends that careful attention be paid to the metadata file associated with these data. Acknowledgment of the U.S. Geological Survey would be appreciated in products derived from these data. User specifically agrees not to misrepresent the data, nor to imply that changes made were approved or endorsed by the U.S. Geological Survey. Please refer to https://www2.usgs.gov/laws/privacy.html for the USGS disclaimer.</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntperp>
+					<cntper>Paul A. Bedrosian</cntper>
+					<cntorg>U.S. Geological Survey</cntorg>
+				</cntperp>
+				<cntaddr>
+					<addrtype>mailing and physical</addrtype>
+					<address>Bldg 20, PO Box 25046, MS 964, Denver Federal Center</address>
+					<city>Denver</city>
+					<state>CO</state>
+					<postal>80225</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>303-236-4834</cntvoice>
+				<cntemail>pbedrosian@usgs.gov</cntemail>
+			</cntinfo>
+		</ptcontac>
+		<datacred>This release of the dataset was funded by the National Science Foundation</datacred>
+	</idinfo>
+	<dataqual>
+		<attracc>
+			<attraccr>No formal attribute accuracy tests were conducted</attraccr>
+		</attracc>
+		<logic>No formal logical accuracy tests were conducted</logic>
+		<complete>Data set is considered complete for the information presented, as described in the abstract. Users are advised to read the rest of the metadata record carefully for additional details.</complete>
+		<posacc>
+			<horizpa>
+				<horizpar>Spatial locations were determined from hand-held global positioning system (GPS) devices. In general, the GPS units used by field scientists recorded sample locations to within 100 feet (30 meters) of the true location. The locations were verified using a geographic information system (GIS) and digital topographic maps.</horizpar>
+			</horizpa>
+			<vertacc>
+				<vertaccr>Elevations were determined from USGS, The National Map, Bulk Point Query Service based on the USGS 3DEP (3D elevation program) 1/3 arc-second layer (10-meter). Vertical accuracy was not assessed for this specific dataset. The overall absolute vertical accuracy of the seamless DEMs within the conterminous United States (2013), expressed as the root mean square error (RMSE) of 25,310 reference points, was 1.55 meters (USGS, 2014 - http://dx.doi.org/10.3133/ofr20141008). The vertical accuracy varies across the U.S. as a result of differences in source DEM quality, terrain relief, land cover, and other factors.</vertaccr>
+			</vertacc>
+		</posacc>
+		<lineage>
+			<procstep>
+				<procdesc>Time-series electric and magnetic field data were collected using long-period and/or broadband magnetotelluric instrumentation at each site location. These data are provided in ASCII format (*.asc files) for all stations as well as binary format (*.bnn or *.bin files) for long-period stations</procdesc>
+				<procdate>20120703</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>Fourier spectra were calculated for windowed time-series data (*.bnn/*.bin/*.asc files) and used to calculate cross- and auto-power spectra. Impedance and tipper transfer functions (see *.zmm and *.edi files) were calculated at each station via a robust, remote-reference processing procedure described in Egbert (1997). System and sensor responses (*.rsp files for broadband data) were deconvolved during this process. By this process, transfer function estimates were made for particular frequency bandwidths for each hourly data run (500 and 50 Hz recording), as well any available "continuous" data runs (6.25 and 8 Hz sampling rates).</procdesc>
+				<procdate>20150115</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>The transfer function estimates provided in the *.edi and *.zmm files and displayed in the *.png file were constructed by selecting optimal TF estimates at each period from a suite of data runs. High (500 Hz), mid (50 Hz), and low (6.25 Hz) frequency broadband recordings provided TF estimates for 10-100 Hz, 1-10 Hz, and 0.001-1 Hz, respectively. Where available, long period (8 Hz) MT recordings provided TF estimates for periods from 0.001-0.1 Hz (10-11,000 seconds). A select few stations have only long period recordings available, in which case TF estimates are provided for periods 0.001-1 Hz. So-called optimal TFs were selected based on examination of phase slope, smooth curve assumptions, and operator discretion.</procdesc>
+				<procdate>20150115</procdate>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<spref>
+		<horizsys>
+			<geograph>
+				<latres>0.0197305745</latres>
+				<longres>0.0273088247</longres>
+				<geogunit>Decimal seconds</geogunit>
+			</geograph>
+			<geodetic>
+				<horizdn>D_WGS_1984</horizdn>
+				<ellips>WGS_1984</ellips>
+				<semiaxis>6378137.0</semiaxis>
+				<denflat>298.257223563</denflat>
+			</geodetic>
+		</horizsys>
+	</spref>
+	<eainfo>
+	   	   <overview>
+			<eaover>Guide_to_Magnetotelluric_Data_Types.pdf</eaover>
+			<eadetcit>Description of available magnetotelluric data types from U.S. Geological Survey. This report describes typical magnetotelluric instrumentation and the various data types required in MT processing and data quality assessment (including electric and magnetic field time-series, instrument response files, and transfer functions), accessible at, https://www.sciencebase.gov/catalog/file/get/59400c59e4b0764e6c631120?name=Guide_to_Magnetotelluric_Data_Types.pdf.</eadetcit>
+		</overview>
+		<overview>
+			<eaover>MT_DataDictionary.csv</eaover>
+			<eadetcit>A data dictionary describing the entity and attributes of magnetotelluric data files produced by data acquisition and processing of magnetotelluric data using NIMS long-period and Electromagnetic Instruments MT24 broadband magnetotelluric instrumetation, accessible at, https://www.sciencebase.gov/catalog/file/get/59400c59e4b0764e6c631120?name=MT_DataDictionary.csv.</eadetcit>
+		</overview>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntperp>
+					<cntper>ScienceBase</cntper>
+					<cntorg>U.S. Geological Survey</cntorg>
+				</cntperp>
+				<cntaddr>
+					<addrtype>mailing and physical</addrtype>
+					<address>Building 810, Mail Stop 302, Denver Federal Center</address>
+					<city>Denver</city>
+					<state>CO</state>
+					<postal>80225</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>1-888-275-8747</cntvoice>
+				<cntemail>sciencebase@usgs.gov</cntemail>
+			</cntinfo>
+		</distrib>
+		<distliab>Unless otherwise stated, all data, metadata and related materials are considered to satisfy the quality standards relative to the purpose for which the data were collected. Although these data and associated metadata have been reviewed for accuracy and completeness and approved for release by the U.S. Geological Survey (USGS), no warranty expressed or implied is made regarding the display or utility of the data for other purposes, nor on all computer systems, nor shall the act of distribution constitute any such warranty.</distliab>
+	</distinfo>
+	<metainfo>
+		<metd>20180419</metd>
+		<metc>
+			<cntinfo>
+				<cntperp>
+					<cntper>Paul Bedrosian</cntper>
+					<cntorg>U.S. Geological Survey</cntorg>
+				</cntperp>
+				<cntpos>Research Geophysicist</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical</addrtype>
+					<address>Bldg 20, PO Box 25046, MS 964, Denver Federal Center</address>
+					<city>Denver</city>
+					<state>CO</state>
+					<postal>80225</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>303-236-4834</cntvoice>
+				<cntemail>pbedrosian@usgs.gov</cntemail>
+			</cntinfo>
+		</metc>
+		<metstdn>Content Standard for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+	</metainfo>
+</metadata>
+
